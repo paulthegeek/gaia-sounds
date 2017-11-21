@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  color: #5992ba;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  margin-top: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #5992ba;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+audio {
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+#gaia-image {
+  position: relative;
+  width: 100px;
+  top: 30px;
+}
+
+#audio-tracks {
+  display: flex;
+  justify-content: space-around;
+}
+
+#country-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
